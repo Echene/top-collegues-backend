@@ -54,5 +54,20 @@ public class CollegueController {
 		return collegue;
 
 	}
+	
+	@GetMapping("/{nomCollegue}")
+	public Collegue getCollegue(@PathVariable(value = "nomCollegue") String nomCollegue) {
+
+		Collegue collegue = new Collegue();
+
+		if (collegueRepository.existsByNom(nomCollegue)) {
+
+			collegue = collegueRepository.findByNom(nomCollegue);
+			
+		}
+		
+		return collegue;
+
+	}
 
 }

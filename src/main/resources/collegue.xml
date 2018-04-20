@@ -8,6 +8,8 @@
 		<property name="nom" value="Chêne"></property>
 		<property name="prenom" value="Emmanuel"></property>
 		<property name="score" value="100"></property>
+		<property name="email" value="email"></property>
+		<property name="adresse" value="adresse"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
@@ -16,6 +18,8 @@
 		<property name="nom" value="Ahsene"></property>
 		<property name="prenom" value="Victor"></property>
 		<property name="score" value="0"></property>
+		<property name="email" value="email"></property>
+		<property name="adresse" value="adresse"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
@@ -24,6 +28,8 @@
 		<property name="nom" value="Buteau"></property>
 		<property name="prenom" value="Axel"></property>
 		<property name="score" value="-1"></property>
+		<property name="email" value="email"></property>
+		<property name="adresse" value="adresse"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
@@ -32,6 +38,8 @@
 		<property name="nom" value="Darcy"></property>
 		<property name="prenom" value="Alexis"></property>
 		<property name="score" value="0"></property>
+		<property name="email" value="email"></property>
+		<property name="adresse" value="adresse"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
@@ -40,6 +48,8 @@
 		<property name="nom" value="Gobert"></property>
 		<property name="prenom" value="Guillaume"></property>
 		<property name="score" value="0"></property>
+		<property name="email" value="email"></property>
+		<property name="adresse" value="adresse"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
@@ -48,6 +58,8 @@
 		<property name="nom" value="Lefebvre"></property>
 		<property name="prenom" value="Valentin"></property>
 		<property name="score" value="0"></property>
+		<property name="email" value="email"></property>
+		<property name="adresse" value="adresse"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>
@@ -56,6 +68,8 @@
 		<property name="nom" value="Martinel"></property>
 		<property name="prenom" value="Kevin"></property>
 		<property name="score" value="0"></property>
+		<property name="email" value="email"></property>
+		<property name="adresse" value="adresse"></property>
 		<property name="urlImage"
 			value="http://www.cnfpt.fr/sites/default/files/images/verbatim/field_visuel_verbatim/1488365975/icone_contact.png"></property>
 	</bean>

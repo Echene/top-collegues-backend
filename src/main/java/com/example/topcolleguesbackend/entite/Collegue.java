@@ -27,29 +27,44 @@ public class Collegue {
 	@Column(name = "PRENOM")
 	private String prenom;
 	
+	@Column(name = "EMAIL")
+	private String email;
+	
+	@Column(name = "ADRESSE")
+	private String adresse;
+	
 	@Column(name = "URL_IMAGE")
 	private String urlImage;
 	
 	@Column(name = "SCORE")
 	private Integer score;
 
-	public Collegue() {
-		// Constructeur vide
-	}
-
 	/** Constructor
-	 * @param id
 	 * @param nom
 	 * @param prenom
+	 * @param email
+	 * @param adresse
 	 * @param urlImage
 	 * @param score
 	 */
-	public Collegue(Integer id, String nom, String prenom, String urlImage, Integer score) {
-		this.id = id;
+	public Collegue(String nom, String prenom, String email, String adresse, String urlImage, Integer score) {
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.adresse = adresse;
+		this.urlImage = urlImage;
+		this.score = score;
+	}
+	
+	public Collegue(String nom, String prenom, String urlImage, Integer score) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.urlImage = urlImage;
 		this.score = score;
+	}
+
+	public Collegue() {
+		// Constructeur vide
 	}
 
 	/** Getter
@@ -120,12 +135,46 @@ public class Collegue {
 	 */
 	public void setScore(Integer score) {
 		if(score > 1000) {
+			
 			this.score = 1000;
+			
 		} else if(score < -1000) {
+			
 			this.score = -1000;
+			
 		} else {
+			
 			this.score = score;
+			
 		}	
+	}
+
+	/** Getter
+	 * @return the email
+	 */
+	public String getEmail() {
+		return email;
+	}
+
+	/** Getter
+	 * @return the adresse
+	 */
+	public String getAdresse() {
+		return adresse;
+	}
+
+	/** Setter
+	 * @param email the email to set
+	 */
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	/** Setter
+	 * @param adresse the adresse to set
+	 */
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
 	}
 		
 }
