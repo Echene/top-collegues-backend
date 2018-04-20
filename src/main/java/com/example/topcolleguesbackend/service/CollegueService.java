@@ -18,7 +18,7 @@ public class CollegueService {
 			
 		} else if (avis.equals(Avis.DETESTER)) {
 			
-			score -= 5;
+			score = -5;
 			
 		}
 

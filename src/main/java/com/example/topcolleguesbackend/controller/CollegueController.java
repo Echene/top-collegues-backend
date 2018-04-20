@@ -41,14 +41,15 @@ public class CollegueController {
 		if (collegueRepository.existsByNom(nomCollegue)) {
 
 			collegue = this.collegueRepository.findByNom(nomCollegue);
+			int score = collegue.getScore();
 
-			if(collegue.getScore() < 1000 && collegue.getScore() > -1000) {
+			if(score <= 1000 && score >= -1000) {
 				collegue.setScore(collegue.getScore() + CollegueService.getResultat(vote.getAction()));
+				
+				collegueRepository.save(collegue);
 			}
 			
 		}
-
-		collegueRepository.save(collegue);
 
 		return collegue;
 

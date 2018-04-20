@@ -119,7 +119,13 @@ public class Collegue {
 	 * @param score the score to set
 	 */
 	public void setScore(Integer score) {
-		this.score = score;
+		if(score > 1000) {
+			this.score = 1000;
+		} else if(score < -1000) {
+			this.score = -1000;
+		} else {
+			this.score = score;
+		}	
 	}
 		
 }
