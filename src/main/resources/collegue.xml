@@ -5,7 +5,7 @@
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
 
 	<bean id="C1" class="com.example.topcolleguesbackend.entite.Collegue">
-		<property name="nom" value="Chêne"></property>
+		<property name="nom" value="Chene"></property>
 		<property name="prenom" value="Emmanuel"></property>
 		<property name="score" value="100"></property>
 		<property name="email" value="email"></property>
