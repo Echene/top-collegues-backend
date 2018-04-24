@@ -63,8 +63,32 @@ public class Collegue {
 		this.score = score;
 	}
 
+	/** Constructor
+	 * @param nom
+	 * @param prenom
+	 * @param email
+	 * @param adresse
+	 * @param urlImage
+	 */
+	public Collegue(String nom, String prenom, String email, String adresse, String urlImage) {
+		this.nom = nom;
+		this.prenom = prenom;
+		this.email = email;
+		this.adresse = adresse;
+		this.urlImage = urlImage;
+	}
+
 	public Collegue() {
 		// Constructeur vide
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Collegue [id=" + id + ", nom=" + nom + ", prenom=" + prenom + ", email=" + email + ", adresse="
+				+ adresse + ", urlImage=" + urlImage + ", score=" + score + "]";
 	}
 
 	/** Getter
